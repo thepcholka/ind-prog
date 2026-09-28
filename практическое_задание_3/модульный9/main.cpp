@@ -4,9 +4,10 @@ int check(int n, int m) {
     return 1 - (n % m) * (m % n);
 }
 
+using namespace std;
+
 int main() {
     int n, m;
-    std::cin >> n >> m;
-    std::cout << check(n, m) << std::endl;
-    return 0;
+    cin >> n >> m;
+    cout << check(n, m) << endl;
 }
