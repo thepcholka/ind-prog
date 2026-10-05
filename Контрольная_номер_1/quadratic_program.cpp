@@ -8,7 +8,7 @@ using namespace std;
 const double EPSILON = 1e-9;
 
 void printStudentName() {
-    cout << "Ivanov Ivan" << endl;
+    cout << "Fomin Matvey" << endl;
 }
 
 bool isZero(double value) {
